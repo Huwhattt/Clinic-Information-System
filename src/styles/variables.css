@@ -1,0 +1,37 @@
+:root {
+  /* Color: clinical blue-white palette */
+  --color-primary: #0f3d5c;
+  --color-primary-light: #1c6e8c;
+  --color-primary-dim: #12506e;
+  --color-bg: #f6f9fb;
+  --color-surface: #ffffff;
+  --color-success: #3f9c82;
+  --color-success-bg: #e7f4f0;
+  --color-danger: #c1563f;
+  --color-danger-bg: #fbeae6;
+  --color-warning: #b98328;
+  --color-warning-bg: #faf1e0;
+  --color-text: #24333d;
+  --color-text-muted: #5b6e7a;
+  --color-border: #dce6ec;
+  --color-border-strong: #c3d3dc;
+
+  /* Type */
+  --font-heading: "IBM Plex Serif", Georgia, serif;
+  --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* Layout */
+  --sidebar-width: 248px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --shadow-panel: 0 1px 2px rgba(15, 61, 92, 0.06);
+}

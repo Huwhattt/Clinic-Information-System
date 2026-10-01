@@ -1,0 +1,92 @@
+/* ---------- Auth screens ---------- */
+.auth-screen {
+  min-height: 100vh;
+  display: flex;
+}
+
+.auth-screen__side {
+  flex: 1;
+  background: linear-gradient(160deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  color: #fff;
+  padding: var(--space-7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.auth-screen__side-mark {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.auth-screen__side-quote {
+  max-width: 380px;
+}
+.auth-screen__side-quote h2 {
+  color: #fff;
+  font-size: 26px;
+  line-height: 1.35;
+}
+.auth-screen__side-quote p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+}
+
+.auth-screen__form {
+  width: 440px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-6);
+}
+
+.auth-card { width: 100%; max-width: 360px; }
+.auth-card h1 { font-size: 24px; }
+.auth-card .text-muted { margin-bottom: var(--space-5); }
+
+.auth-demo-box {
+  margin-top: var(--space-5);
+  padding: var(--space-4);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 12.5px;
+}
+.auth-demo-box div { margin-bottom: 4px; }
+.auth-demo-box strong { color: var(--color-primary); }
+
+@media (max-width: 780px) {
+  .auth-screen__side { display: none; }
+  .auth-screen__form { width: 100%; }
+}
+
+/* ---------- Dashboard ---------- */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: var(--space-5);
+}
+
+@media (max-width: 980px) {
+  .dashboard-grid { grid-template-columns: 1fr; }
+}
+
+.chart-panel h3 { font-size: 15px; margin-bottom: var(--space-4); }
+
+.mini-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mini-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 13.5px;
+}
+.mini-list li:last-child { border-bottom: none; }
+.mini-list .mini-list__meta { color: var(--color-text-muted); font-size: 12px; }
